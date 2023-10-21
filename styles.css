@@ -25,17 +25,17 @@ body {
 
 /* You can apply specific styling to each item if needed */
 .item-1 {
-    background-color: #ff5733;
+//background-color: #ff5733;
 }
 
 .item-2 {
-    background-color: #33ff57;
+   // background-color: #33ff57;
 }
 
 .item-3 {
-    background-color: #5733ff;
+   // background-color: #5733ff;
 }
 
 .item-4 {
-    background-color: #ff33f3;
+    //background-color: #ff33f3;
 }
