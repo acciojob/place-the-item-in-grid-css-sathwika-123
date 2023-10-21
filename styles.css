@@ -1,2 +1,41 @@
 
 /* Your CSS Code here. */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.holder {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two equal columns */
+    grid-template-rows: repeat(2, 1fr);    /* Two equal rows */
+    width: 200px; /* Total size of 200px */
+    height: 200px;
+    gap: 5px; /* Adjust the gap as needed */
+}
+
+.item {
+    border: 1px solid #000;
+    text-align: center;
+    padding: 10px;
+}
+
+/* You can apply specific styling to each item if needed */
+.item-1 {
+    background-color: #ff5733;
+}
+
+.item-2 {
+    background-color: #33ff57;
+}
+
+.item-3 {
+    background-color: #5733ff;
+}
+
+.item-4 {
+    background-color: #ff33f3;
+}
